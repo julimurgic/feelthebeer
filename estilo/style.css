@@ -77,7 +77,7 @@ header a:hover{
         rgba(0,0,0,0.5),
         rgba(0,0,0,0.5)
     )
-    ,url("/imagenes/birrapastitos2.jpg");
+    ,url("../imagenes/birrapastitos2.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -118,15 +118,15 @@ header a:hover{
 }
 
 #sonrisas .carta:first-child{
-    background-image:url("/imagenes/sirviendobarra.jpg");
+    background-image:url("../imagenes/sirviendobarra.jpg");
 }
 
 #sonrisas .carta:nth-child(2){
-    background-image: url("/imagenes/cervezaamigos.jpg");
+    background-image: url("../imagenes/cervezaamigos.jpg");
 }
 
 #sonrisas .carta:last-child{
-    background-image: url("/imagenes/sonrisabirra.jpg");
+    background-image: url("../imagenes/sonrisabirra.jpg");
 }
 
 #final{
@@ -215,7 +215,7 @@ footer .container{
 }
 
 #cervezas .cartacerve:first-child{
-    background-image:url("/imagenes/tiposcervezas.jpg");
+    background-image:url("../imagenes/tiposcervezas.jpg");
 }
 
 
@@ -276,7 +276,7 @@ footer .container{
         0deg,
         rgba(0,0,0,0.5),
         rgba(0,0,0,0.5))
-        ,url("/imagenes/hamburguesalechugaytomate.png");
+        ,url("../imagenes/hamburguesalechugaytomate.png");
 }
 
 .burger:nth-child(2){
@@ -284,7 +284,7 @@ footer .container{
         0deg,
         rgba(0,0,0,0.5),
         rgba(0,0,0,0.5))
-        ,url("/imagenes/hamburguesabacon.png");
+        ,url("../imagenes/hamburguesabacon.png");
 }
 
 .burger:last-child{
@@ -292,7 +292,7 @@ footer .container{
         0deg,
         rgba(0,0,0,0.5),
         rgba(0,0,0,0.5))
-        ,url("/imagenes/hamburguesapepinos.png");
+        ,url("../imagenes/hamburguesapepinos.png");
 }
 
 /* Style Comidas End*/
@@ -382,7 +382,7 @@ footer .container{
     }
 
     #quienes-somos .img-container{
-        background-image: url("/imagenes/fotobarra.jpg");
+        background-image: url("../imagenes/fotobarra.jpg");
         background-size: cover;
         background-position: center center;
         height: 600px;
@@ -412,15 +412,15 @@ footer .container{
     }
 
     #sonrisas .carta:first-child{
-        background-image:url("/imagenes/sirviendobarra.jpg");
+        background-image:url("../imagenes/sirviendobarra.jpg");
     }
     
     #sonrisas .carta:nth-child(2){
-        background-image: url("/imagenes/cervezaamigos.jpg");
+        background-image: url("../imagenes/cervezaamigos.jpg");
     }
     
     #sonrisas .carta:nth-child(3){
-        background-image:url("/imagenes/sonrisabirra.jpg");
+        background-image:url("../imagenes/sonrisabirra.jpg");
     }
 
     /*cervezas*/
@@ -448,7 +448,7 @@ footer .container{
     }
 
     #cervezas .cartacerve:first-child{
-        background-image:url("/imagenes/tiposcervezas.jpg");
+        background-image:url("../imagenes/tiposcervezas.jpg");
     }
 
 
