@@ -363,31 +363,45 @@ footer .container{
     }
 
     #quienes-somos .container{
-        display: flex;
-        justify-content: space-evenly;
-    }
-
-    #quienes-somos .texto{
-        width: 50%;
-        max-width: 600px;
-        text-align: initial;
-        padding-left: 30px;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-    }
-
-    #quienes-somos h2{
-        margin-top: 0px;
+        text-align: center;
     }
 
     #quienes-somos .img-container{
-        background-image: url("../imagenes/fotobarra.jpg");
-        background-size: cover;
-        background-position: center center;
-        height: 600px;
-        width: 500px; 
+        width: auto;
+        height: auto;
     }
+
+    img{
+        width: auto;
+        height: auto;
+        transition: all 2s ease;
+    }
+
+    img:hover{
+        width: auto;
+        transform: scale(1.1,1.1);
+    }
+
+    /*Somos una cerveceria*/
+
+.aparece{
+    margin:100px;
+    animation-duration: 4s;
+    animation-name: aparece;
+
+}
+
+@keyframes aparece {
+    0% {
+        opacity: 0;
+        }
+    50% {
+        opacity: 1;
+        }
+    100% {
+      opacity: 1;
+        }
+}
 
     #sonrisas p{
         display: block;
